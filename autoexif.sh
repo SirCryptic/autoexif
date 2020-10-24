@@ -9,7 +9,11 @@ clear
 red='\e[1;31m'
 yellow='\e[0;33m'
 Blue='\e[1;34m'
+dpkg --status exif libimage-exiftool-perl libstring-crc32-perl libgd-perl | grep -q not-installed
 
+if [ $? -eq 0 ]; then
+   sudo apt-get install exif libimage-exiftool-perl libstring-crc32-perl libgd-perl
+fi
 figlet AutoExif
  echo -e '\e[1;31m Exif Tool AutoMated For Easy Conveinience             
 \e[3;34m
