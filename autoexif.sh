@@ -5,6 +5,10 @@ clear
 while [ $i -lt 1 ]
 do
 clear
+#COLOUR
+red='\e[1;31m'
+yellow='\e[0;33m'
+Blue='\e[1;34m'
 
 figlet AutoExif
  echo -e '\e[1;31m Exif Tool AutoMated For Easy Conveinience             
@@ -47,7 +51,8 @@ contact='c'
 
 
 
-read x
+echo -e $Blue" ┌─["$red"Auto-Exif$Blue]──[$red~$Blue]─["$yellow"Tool$Blue]:"
+echo -e $Blue" └─────► " ;read -p " CHOOSE: " x
 
 if [ "$x" == "$option1" ]; then                    #readmetadata basic
 echo "enter image name followed by its file type eg: /home/username/Pictures/lulz.png"
