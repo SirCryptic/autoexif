@@ -34,7 +34,7 @@ echo -e '\033]2;'$title'\007'
 \e[0;33m-------------------------------------------------------------------------\e[0m
 (1) Read Image MetaData (Basic)
 (2) Read Image MetaData (Expert)
-(3) Read Imge MetaData (From Website)
+(3) Read Image MetaData (From Website)
 (4) Wipe Data From Image (Except JFIF Groups)
 (5) Wipe All GPS Data From Image
 (6) Wipe All MetaData From Image (Adds Comment Back In) 
