@@ -3,7 +3,7 @@ bash script to easy use exiftool
 
 
 
-![Capture](https://user-images.githubusercontent.com/48811414/104401855-f159c600-554c-11eb-9c57-d6e20851bb35.PNG)
+![Capture](https://user-images.githubusercontent.com/48811414/104402369-04b96100-554e-11eb-9a1c-ed21469d9b4c.PNG)
 
 
 - git clone https://github.com/SirCryptic/autoexif
