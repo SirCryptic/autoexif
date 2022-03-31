@@ -241,7 +241,7 @@ read
 elif [ "$x" == "$option9" ]; then                          #Option9
 clear
 echo -e '
-Delete Photoshop meta information from an image (note that the Photoshop informatio nalso includes IPTC).
+Delete Photoshop meta information from an image (note that the Photoshop information also includes IPTC).
 enter image name followed by its file type eg: /home/username/pictures/lulz.jpg
 '
 read psd
