@@ -305,8 +305,8 @@ clear
 echo -e '\e[1;33m
 \e[0m
  \e[1;31m
- no-reply@nullsec.online
- https://nullsec.online
+
+  sircryptic@protonmail.com
                           Press ENTER To Go Back To The Main Menu
 '
 read
