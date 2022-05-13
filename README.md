@@ -19,7 +19,6 @@ bash script to easy use exiftool
 https://github.com/SirCryptic
 
 - ⭐ Phil Harvey - Exif Tool
-https://github.com/evict/SSHScan
 
 
 version: AutoExif RJ 4 <tagname>
