@@ -1,5 +1,5 @@
 # autoexif
-bash script to easy use exiftool
+bash script to Easily use exiftool
 
 
 
