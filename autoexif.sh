@@ -44,7 +44,7 @@ echo -e '\033]2;'$title'\007'
 │(8) Extract Info From Thumbnail                                    │
 │(9) Wipe Photoshop MetaData                                        │
 │(h) Help                                                           │
-│(i) Install Dependencies                                           │
+│(i) Install Dependencies & Script                                  │
 │(c) Contact Information                                            │
 ├───────────────────────────────────────────────────────────────────┤
 │                          CTRL + C To Exit                         │
@@ -330,7 +330,7 @@ echo -e '
 ├───────────────────────────────────────────────────────────────────┘'
 read -p "└─────► " r
 echo -e '\e[0;31m───────────────────────────────────────────────────────────────────\e[0;39m'
-$r sudo apt-get install exif libimage-exiftool-perl libstring-crc32-perl libgd-perl
+$r sudo bash install.sh
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                       Fully Installed ExifTool                    │
