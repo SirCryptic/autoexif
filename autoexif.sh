@@ -305,11 +305,14 @@ clear
 echo -e '\e[1;33m\e[0m\e[1;31m
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ You can Put This Script In The Desired Folder You Like Where The Media      │
-│ Is Located Then You can execute the script                                  │
+│ Is Located Then You can execute the script if you have the dependencies     │
+│ Already Installed.                                                          │
 │ when the script is in the media folder you want you can just type the       │      
 │ Image name Along with file type instead of typing the image location aswell │
 │ For eg: instead of /home/username/Pictures/lulz.png                         │
 │ I would just type : lulz.png                                                │
+│ Alternativly i would just install the script and dependcies together        │
+│ Allowing me to just type autoexif to open the script in any cli             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                  Press ENTER To Go Back To The Main Menu                    │
 └─────────────────────────────────────────────────────────────────────────────┘ 
