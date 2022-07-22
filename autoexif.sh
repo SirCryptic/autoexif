@@ -334,6 +334,7 @@ echo -e '
 read -p "└─────► " r
 echo -e '\e[0;31m───────────────────────────────────────────────────────────────────\e[0;39m'
 $r sudo bash install.sh
+$r sudo bash /usr/bin/autoexif/install.sh
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                       Fully Installed ExifTool                    │
