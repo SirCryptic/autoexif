@@ -25,6 +25,6 @@ version: AutoExif RJ 4 <tagname>
   
  # Foot Notes
 ⛔⚠️
-this script now install along with the dependancies so you can just type autoexif in anyterminal , hope you enjoy the tiny update🤷
+this script now install's along with the dependancies so you can just type autoexif in any terminal , hope you enjoy the tiny update🤷
 
 otherwise you can install the dependancies yourself and place this script inside the folder with the images and execute it you can then type the image name rather than the image directory and name.
