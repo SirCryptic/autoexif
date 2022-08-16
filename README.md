@@ -18,10 +18,9 @@ bash script to Easily use exiftool
 - ⭐ Sir Crypic , AutoExif
 https://github.com/SirCryptic
 
-- ⭐ luminary Ken Thompson - Grep
 
 
-version: lgrep laf <tagname>
+version: rjw4 <tagname>
   
  # Foot Notes
 ⛔⚠️
