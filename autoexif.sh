@@ -52,7 +52,7 @@ echo -e '\033]2;'$title'\007'
 
  echo -e "                ▌║█║▌│║▌│║▌║▌█║AutoExif▌│║▌║▌│║║▌█║▌║█"
  echo -e '\e[0;33m┌───────────────────────────────────────────────────────────────────┐
-\e[1;31m│Exif Tool AutoMated For Easy Conveinience\e[3;34m Created by "Sir Cryptic"\e[0m\e[1;31m │
+\e[1;31m│Exif Tool AutoMated For Easy Conveinience\e[3;34m Created by "SirCryptic "\e[0m\e[1;31m │
 \e[0;33m├───────────────────────────────────────────────────────────────────┤
 \e[0m\e[1;31m│You Must Install Dependencies For This Script To Work Properly     │\e[3;39m
 \e[0;33m└───────────────────────────────────────────────────────────────────┘\e[0m
