@@ -3,7 +3,8 @@ bash script to Easily use exiftool
 
 
 
-![gui](https://user-images.githubusercontent.com/48811414/168398504-84dbd8d9-9b8f-4617-b804-051411146262.png)
+![image](https://user-images.githubusercontent.com/48811414/222957282-0eafdb29-bbe2-4413-b10a-6b910caa4b18.png)
+
 
 ![made-with-bash](https://user-images.githubusercontent.com/48811414/86414182-29896d80-bcbb-11ea-9b0b-de6b57eb583d.png) ![user-friendly](https://user-images.githubusercontent.com/48811414/86414184-2a220400-bcbb-11ea-89a8-89890f2e3775.png)
 
