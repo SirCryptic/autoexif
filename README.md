@@ -1,30 +1,30 @@
 # autoexif
-bash script to Easily use exiftool
 
+Autoexif is a Bash script that provides an easy-to-use interface for the exiftool utility.
 
+![Autoexif screenshot](https://user-images.githubusercontent.com/48811414/222957282-0eafdb29-bbe2-4413-b10a-6b910caa4b18.png)
 
-![image](https://user-images.githubusercontent.com/48811414/222957282-0eafdb29-bbe2-4413-b10a-6b910caa4b18.png)
+## Installation
 
+To install Autoexif, follow these steps:
 
-![made-with-bash](https://user-images.githubusercontent.com/48811414/86414182-29896d80-bcbb-11ea-9b0b-de6b57eb583d.png) ![user-friendly](https://user-images.githubusercontent.com/48811414/86414184-2a220400-bcbb-11ea-89a8-89890f2e3775.png)
+1. Clone the repository: `git clone https://github.com/SirCryptic/autoexif`
+2. Navigate to the Autoexif directory: `cd autoexif`
+3. Execute the script: `bash autoexif.sh`
 
-### **- [ x ] How To Install/Download**
+## Usage
 
-- `git clone https://github.com/SirCryptic/autoexif`
-- `cd autoexif`
--  `bash autoexif.sh`
+Autoexif allows you to modify metadata in image files using a simple and intuitive command-line interface. Once you've navigated to the Autoexif directory and executed the script, you'll be presented with a menu of options for modifying image metadata. Simply follow the prompts to enter the relevant metadata fields and modify them as desired.
 
-### - [ x ] Credits
+## Credits
 
-- ⭐ Sir Crypic , AutoExif
-https://github.com/SirCryptic
+Autoexif was developed by SirCryptic and is released under the [MIT License](https://github.com/SirCryptic/autoexif/blob/master/LICENSE).
 
+## Version History
 
+- rjw5
+- rjw4
 
-version: rjw5 <tagname>
-  
- # Foot Notes
-⛔⚠️
-this script now install's along with the dependancies so you can just type autoexif in any terminal , hope you enjoy the tiny update🤷
+## Footnotes
 
-otherwise you can install the dependancies yourself and place this script inside the folder with the images and execute it you can then type the image name rather than the image directory and name.
+This script now installs along with the dependencies, so you can just type `autoexif` in any terminal. If you prefer, you can also install the dependencies yourself and place the script inside the folder with the images you want to modify. In this case, you can then type the image name rather than the image directory and name.
