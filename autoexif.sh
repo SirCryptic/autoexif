@@ -371,7 +371,7 @@ read -p "└─────► "
 
 else 
 
-error
+n
 
 fi
 done
