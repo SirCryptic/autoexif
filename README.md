@@ -1,8 +1,8 @@
-# autoexif
+# AutoExif
 
 Autoexif is a Bash script that provides an easy-to-use interface for the exiftool utility.
 
-![Autoexif screenshot](https://user-images.githubusercontent.com/48811414/222957282-0eafdb29-bbe2-4413-b10a-6b910caa4b18.png)
+![image](https://user-images.githubusercontent.com/48811414/222957737-03647b0d-5628-4eb3-8ac6-e17a82fb4e49.png)
 
 ## Installation
 
