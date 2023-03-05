@@ -15,10 +15,25 @@
 ##      Developed On        ##
 ##        BackBox           ##
 ##############################
-i="0"
-clear
-while [ $i -lt 1 ]
+while true
 do
+if [ -f /etc/bash_completion.d/readline ]; then
+    . /etc/bash_completion.d/readline
+fi
+
+HISTFILE="$HOME/.bash_history"
+history -a "$HISTFILE"
+
+# enable arrow key support
+if [[ $- == *i* ]]; then
+    bind '"\e[A": history-search-backward'
+    bind '"\e[B": history-search-forward'
+    bind '"\e[C": forward-char'
+    bind '"\e[D": backward-char'
+fi
+history -r
+history -a
+history -w
 clear
 #COLOUR
 red='\e[1;31m'
@@ -52,7 +67,8 @@ echo -e '\033]2;'$title'\007'
 '
 
 echo -e $Blue" ┌─["$red"Auto$Blue]──[$red~$Blue]─["$yellow"Exif$Blue]:"
-read -p " └─────► " x
+read -e -p" └─────► " x
+
 option1='1'
 option2='2'
 option3='3'
@@ -65,14 +81,13 @@ option9='9'
 info='h'
 installdeps='i'
 contact='c'
-
 if [ "$x" == "$option1" ]; then                    #readmetadata basic
 clear
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: /home/username/Pictures/lulz.png          │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " meta1
+read -e -p"└─────► " meta1 >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Extracting Data!                         │
@@ -98,7 +113,7 @@ echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: /home/username/Pictures/lulz.png          │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " mdeep
+read -e -p"└─────► " mdeep >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Extracting Data!                         │
@@ -123,7 +138,7 @@ echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: http://a.domain.com/bigfile.jpg           │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " pi1host
+read -e -p"└─────► " pi1host >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Extracting Data!                         │
@@ -148,7 +163,7 @@ echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: /home/username/Pictures/lulz.png          │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " pi4
+read -e -p"└─────► " pi4 >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Wiping JFIF Data!                        │
@@ -172,7 +187,7 @@ echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: /home/username/Pictures/lulz.png          │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " pi5
+read -e -p"└─────► " pi5 >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Wiping GPS Data!                         │
@@ -196,7 +211,7 @@ echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: /home/username/Pictures/lulz.png          │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " pi6
+read -e -p"└─────► " pi6 >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Replacing Data!                          │
@@ -219,7 +234,7 @@ echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: /home/username/Videos/lulz.m2ts           │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " avch
+read -p "└─────► " avch >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Extracting Data!                         │
@@ -246,7 +261,7 @@ echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: /home/username/Pictures/lulz.png          │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " pi8
+read -e -p"└─────► " pi8 >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Extracting Data!                         │
@@ -278,7 +293,7 @@ echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │          usage example: /home/username/Pictures/lulz.png          │
 ├───────────────────────────────────────────────────────────────────┘'
-read -p "└─────► " psd
+read -e -p"└─────► " psd >> ~/.bash_history
 echo -e '
 ┌───────────────────────────────────────────────────────────────────┐
 │                          Extracting Data!                         │
@@ -356,10 +371,9 @@ read -p "└─────► "
 
 else 
 
-n
-
+error
 
 fi
-
 done
-## © 2022 - rjw dly4ever##
+
+## © 2023 - rjw dly4ever##
