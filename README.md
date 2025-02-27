@@ -31,7 +31,7 @@
 - **Cross-Platform**: Available as a standalone executable for Windows and a Python script for macOS and Linux.
 
 > **Note for Linux Users**  
-> Currently, AutoExif offers full graphical interface (GUI) support only on Windows. For Linux, the tool is functional via the Python script, but lacks a polished GUI experience. A comprehensive GUI, matching the Windows version, is in active development and will be released soon, ensuring a consistent experience across all supported platforms. In the meantime, Linux users can utilize the script-based version or explore the CLI alternative [here](https://github.com/SirCryptic/autoexif/tree/master). Stay tuned for updates!
+> Currently, AutoExif offers full graphical interface (GUI) support only on Windows. For Linux, the tool is functional via the Python script, but lacks a polished GUI experience. A comprehensive GUI, matching the Windows version, is in active development and will be released soon, ensuring a consistent experience across all supported platforms. In the meantime, Linux users can utilize the script-based version / explore the CLI alternative [here](https://github.com/SirCryptic/autoexif/tree/master). Stay tuned for updates!
 
 ## 🙌 Credits
 
