@@ -4,67 +4,43 @@
     onmouseover="this.style.transform='scale(1.05)'; this.style.opacity='0.8';" 
     onmouseout="this.style.transform='scale(1)'; this.style.opacity='1';">
   </a>
+</p>
 
-  <div align="center">
-    <a href="https://github.com/sircryptic/autoexif/stargazers"><img src="https://img.shields.io/github/stars/sircryptic/autoexif.svg" alt="GitHub stars"></a>
-    <a href="https://github.com/sircryptic/autoexif/network"><img src="https://img.shields.io/github/forks/sircryptic/autoexif.svg" alt="GitHub forks"></a>
-    <a href="https://github.com/sircryptic/autoexif/watchers"><img src="https://img.shields.io/github/watchers/sircryptic/autoexif.svg?style=social" alt="GitHub watchers"></a>
-    <br>
-    <a href="https://github.com/SirCryptic/autoexif/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
-</div>
-  
-#
-AutoExif is a user-friendly tool that provides an intuitive graphical interface for the powerful `exiftool` utility, allowing you to view, edit, and wipe metadata from images and videos with ease.
+<p align="center">
+  <a href="https://github.com/sircryptic/autoexif/stargazers"><img src="https://img.shields.io/github/stars/sircryptic/autoexif.svg" alt="GitHub Stars"></a>
+  <a href="https://github.com/sircryptic/autoexif/network"><img src="https://img.shields.io/github/forks/sircryptic/autoexif.svg" alt="GitHub Forks"></a>
+  <a href="https://github.com/sircryptic/autoexif/watchers"><img src="https://img.shields.io/github/watchers/sircryptic/autoexif.svg?style=social" alt="GitHub Watchers"></a>
+  <br>
+  <a href="https://github.com/SirCryptic/autoexif/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
+</p>
 
-## Features
+# AutoExif
 
-- **Read Metadata**: View basic or detailed EXIF data from local files.
-- **Web Metadata**: Extract metadata from online images via URLs.
-- **Wipe Metadata**: Remove specific metadata types (e.g., GPS, Photoshop) or all metadata from local files, with an optional custom comment.
-- **Extract Video GPS**: Pull GPS data from video files.
-- **Thumbnail Info**: View metadata from image thumbnails.
-- **Operation Log**: Track all actions performed within the tool.
-- **Cross-Platform**: Runs as a standalone executable on Windows and as a Python script on macOS/Linux.
+**AutoExif** is a user-friendly tool that provides an intuitive graphical interface for the powerful [`exiftool`](https://exiftool.org/) utility. It enables users to view, edit, and remove metadata from images and videos effortlessly. Whether you're a photographer cataloging your work, a developer analyzing media files, or someone prioritizing privacy, AutoExif simplifies metadata management across multiple platforms.
 
-## Installation
+---
 
-### Windows
-1. **Download**: Grab the latest `AutoExif.exe` from the [Releases](https://github.com/SirCryptic/autoexif/releases) page.
-2. **Run**:(no additional installation required! `exiftool` is bundled within the executable.)
+## ✨ Features
 
-### macOS/Linux
-1. **Install Python 3**: Ensure Python 3.6+ is installed (e.g., via `brew install python` on macOS or `sudo apt install python3` on Linux).
-2. **Install Dependencies**:
-```
-   pip install pyqt5 requests
-```
-3. **Install ExifTool**:
-* macOS:
-```
-brew install exiftool
-```
-* Linux (Ubuntu/Debian):
-```
-sudo apt update
-sudo apt install libimage-exiftool-perl
-```
-4. **Download Script**: Get AutoExif.py from the repository.
-5. **Run**:
-```
-python AutoExif.py
-```
-* **If exiftool isn’t installed, click "Install Dependencies" in the app for instructions.**
+- **Read Metadata**: Display basic or detailed EXIF data (e.g., camera settings, timestamps) from local image and video files.
+- **Web Metadata**: Extract metadata from online images by providing a URL.
+- **Wipe Metadata**: Remove all metadata or specific types (e.g., GPS, Photoshop edits) from local files, with an option to add a custom comment.
+- **Extract Video GPS**: Retrieve embedded GPS coordinates from video files for location-based insights.
+- **Thumbnail Info**: Access metadata embedded in image thumbnails, often overlooked but rich with details.
+- **Operation Log**: Maintain a record of all actions performed for transparency and troubleshooting.
+- **Cross-Platform**: Available as a standalone executable for Windows and a Python script for macOS and Linux.
 
-## Usage
-- Local Files: Enter a file path (e.g., C:\path\to\image.jpg or /home/user/pic.jpg) or use the "Browse" button.
-- URLs: Use URLs (e.g., http://example.com/pic.jpg) only for "Read Web Metadata" and "Extract Thumbnail Info."
+> **Note for Linux Users**  
+> Currently, AutoExif offers full graphical interface (GUI) support only on Windows. For Linux, the tool is functional via the Python script, but lacks a polished GUI experience. A comprehensive GUI, matching the Windows version, is in active development and will be released soon, ensuring a consistent experience across all supported platforms. In the meantime, Linux users can utilize the script-based version or explore the CLI alternative [here](https://github.com/SirCryptic/autoexif/tree/master). Stay tuned for updates!
 
-## Credits
-- `AutoExif` was developed by [SirCryptic](https://github.com/sircryptic) and is released under the [MIT License](https://github.com/SirCryptic/autoexif/blob/re-write/LICENSE).
+## 🙌 Credits
 
-### Special Thanks to
-* Phil Harvey: For ExifTool, the backbone of this tool.
-* PyQt5 Team: For the awesome GUI framework.
-* Open Source Community: For tools and libraries that made this possible.
+- **Developed by**: [SirCryptic](https://github.com/sircryptic)  
+- **License**: Released under the [MIT License](https://github.com/SirCryptic/autoexif/blob/master/LICENSE)  
 
-**This tool is dedicated to simplifying metadata management for everyone. Enjoy using AutoExif!**
+### Acknowledgments
+- **Phil Harvey**: Creator of `exiftool`, the core engine powering AutoExif.  
+- **PyQt5 Team**: For delivering a robust and flexible GUI framework.  
+- **Open Source Community**: For the essential tools and libraries that drive this project.  
+
+**AutoExif is committed to making metadata management accessible and efficient for all users. Enjoy exploring its capabilities!**
